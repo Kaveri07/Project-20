@@ -3,7 +3,7 @@ var car, wall, speed, weight, deformation;
 function setup() {
   createCanvas(1600,400);
 
-  speed = random(55.90);
+  speed = random(55,90);
   
   weight = random(400,1500);
   
@@ -25,10 +25,10 @@ function draw() {
       car.shapeColor = color(0,255,0);
     }
     if (deformation > 100 && deformation < 180) {
-      car.shapeColor = color(230,230,0)
+      car.shapeColor = color(230,230,0);
     }
     if (deformation > 180) {
-      car.shapeColor = color(255,0,0)
+      car.shapeColor = color(255,0,0);
     }
   }
 
